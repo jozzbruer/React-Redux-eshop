@@ -14,11 +14,8 @@ export const setProducts = (products) => {
 	};
 };
 
-// export const removeSelectedProducts = (products) => {
-// 	return (dispatch) => {
-// 		dispatch({
-// 			type: actionTypes.REMOVE_SELECTED_PRODUCTS,
-// 			payload: products,
-// 		});
-// 	};
-// };
+export const removeSelectedProducts = () => {
+	return {
+		type: actionTypes.REMOVE_SELECTED_PRODUCTS,
+	};
+};
