@@ -3,6 +3,7 @@ import Header from './components/Header';
 import ProductItem from './components/ProductItem';
 import ProductListing from './components/ProductListing';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route>404 not found</Route>
 				</Switch>
 			</Router>
+			<Footer />
 		</>
 	);
 }

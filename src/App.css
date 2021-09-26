@@ -96,3 +96,33 @@
 	width: 100%;
 	height: 100vh;
 }
+
+.navheader {
+	color: #fff;
+	background: #5a67d8;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+	width: 100%;
+	height: 300px;
+	background: #5a67d8;
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+
+.footcontainer {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
 	return (
-		<div className='ui menu'>
+		<div className='navheader'>
 			<div className='ui container center'>
 				<h2>Dummy E-Shop</h2>
 			</div>
